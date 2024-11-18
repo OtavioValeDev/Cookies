@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cookie</title>
 </head>
+
 <body>
+    <div>
+        <!-- Produtos -->
+        <h2>Produtos</h2>
+        <label><input type="checkbox" id="product1"> Produto 1</label><br>
+        <label><input type="checkbox" id="product2"> Produto 2</label><br>
+        <label><input type="checkbox" id="product3"> Produto 3</label><br>
+    </div>
     <div class="cookie-message" id="cookie-message">
         <p>Aceitas partilhar suas informações para fins que nem eu e nem você sabemos para oque será usado?</p>
+        <!-- só para colocar os botao -->
         <div class="cookie-btn" id="cookie-btn">
-            <input type="button" value="Aceitar">
+            <input id="accepted" name="accept" type="button" value="Aceitar">
+            <input id="unaccepted" name="unaccepted" type="button" value="Não aceitar">
         </div>
     </div>
 </body>
+
 </html>
