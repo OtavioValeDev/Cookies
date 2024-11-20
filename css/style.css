@@ -1,0 +1,12 @@
+.cookie-message {
+    position: fixed;
+    background-color: #ccc;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+
+.cookie-message.mostrar {
+    display: block;
+}
